@@ -1,0 +1,270 @@
+body {
+  background: red;
+}
+
+.container .header-portion {
+  background: url("../assest/background.png");
+  background-size: cover;
+  float: left;
+  width: 100%;
+  padding-top: 11%;
+}
+
+.container .header-portion .site-logo-cover {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container .header-portion .site-logo-cover img {
+  width: 22%;
+}
+
+.container .header-portion .site-tile {
+  float: left;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 44px;
+  margin-bottom: 25px;
+}
+
+.container .header-portion .search-box-cover {
+  float: left;
+  width: 86%;
+  background: #fff;
+  border-radius: 40px;
+}
+
+.container .header-portion .search-box-cover .input-group {
+  float: left;
+  width: 80%;
+}
+
+.container .header-portion .search-box-cover .dropdown {
+  float: left;
+  min-width: 20%;
+  min-height: 44px;
+  border-right: 1px solid #ccc;
+}
+
+.container .header-portion .search-box-cover .dropdown .btn-primary {
+  color: #000;
+  background-color: #fff;
+  border: none;
+  margin: 11px 0 0 11px;
+  padding: 0;
+}
+
+.container .header-portion .search-box-cover .stylish-input-group .input-group-addon {
+  background: #13686D;
+  border: none;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.container .header-portion .search-box-cover .stylish-input-group .form-control {
+  border-right: 0;
+  box-shadow: 0 0 0;
+  border: none;
+  padding: 10px 0 0 50px;
+}
+
+.container .header-portion .search-box-cover .stylish-input-group button {
+  border: 0;
+  background: transparent;
+}
+
+.container .header-portion .list-para {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.container .header-portion .mobile-image-cover {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+  min-height: 390px;
+}
+
+.container .header-portion .mobile-image-cover img {
+  width: 20%;
+  left: 40%;
+  position: absolute;
+}
+
+.container .how-it-work-cover {
+  float: left;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.container .how-it-work-cover .how-it-title {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 40px;
+}
+
+.container .how-it-work-cover .coln {
+  float: left;
+  width: 50%;
+  min-height: 178px;
+}
+
+.container .how-it-work-cover .coln:nth-child(even) {
+  border-right: 1px solid #2FAEC1;
+}
+
+.container .how-it-work-cover .coln-3.coln {
+  border-left: 1px solid #ccc;
+}
+
+.container .how-it-work-cover .coln-2, .container .how-it-work-cover .coln-1 {
+  min-height: 300px;
+}
+
+.container .how-it-work-cover .coln-5.coln, .container .how-it-work-cover .coln-6.coln {
+  min-height: 225px !important;
+}
+
+.container .how-it-work-cover .coln-2.coln .numbr {
+  margin-left: -25px;
+  background-color: #fff;
+}
+
+.container .how-it-work-cover .coln-4.coln .numbr {
+  margin-top: -72px;
+  margin-left: -25px;
+  background: #fff;
+}
+
+.container .how-it-work-cover .coln-6.coln .numbr {
+  margin-left: -25px;
+  margin-top: 0;
+}
+
+.container .how-it-work-cover .download-the-app {
+  float: left;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 25px 20px;
+  text-align: center;
+  border-left: none;
+}
+
+.container .how-it-work-cover .download-the-app img {
+  width: 7%;
+}
+
+.container .how-it-work-cover .download-the-app .coln-title {
+  font-weight: bold;
+}
+
+.container .thats-it-cover {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.container .our-recom-cover {
+  float: left;
+  width: 100%;
+  text-align: center;
+  background: #FBFBFB;
+  margin-top: 50px;
+}
+
+.container .our-recom-cover h5 {
+  margin-bottom: 50px;
+}
+
+.container .our-recom-cover .recom-results-cover {
+  float: left;
+  text-align: left;
+  background: #fff;
+  width: 32%;
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 20px 15px;
+}
+
+.container .our-recom-cover .recom-results-cover .result-img {
+  float: left;
+  margin-right: 20px;
+  width: 28%;
+}
+
+.container .our-recom-cover .recom-results-cover .result-img img {
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+.container .our-recom-cover .recom-results-cover .result-texts {
+  float: left;
+  width: 66%;
+}
+
+.container .our-recom-cover .recom-results-cover .result-texts .address {
+  margin: 0;
+}
+
+.container .our-recom-cover .recom-results-cover .result-texts .phone-numbr img {
+  width: 6%;
+  margin-right: 20px;
+}
+
+.container .our-recom-cover .recom-results-cover .result-texts .star-review-cover {
+  float: left;
+  width: 100%;
+}
+
+.container .our-recom-cover .recom-results-cover .result-texts .star-review-cover img {
+  width: 9%;
+  float: left;
+}
+
+.container .our-recom-cover .recom-results-cover .result-texts .star-review-cover .revws-count {
+  float: left;
+  margin-left: 20px;
+}
+
+.container .our-recom-cover .recom-results-cover .button-cover {
+  float: left;
+  width: 100%;
+  border: 1px solid #2FAEC1;
+}
+
+.container .our-recom-cover .recom-results-cover .button-cover p {
+  float: left;
+  width: 30%;
+  margin: 0;
+  padding: 5px;
+  color: #2FAEC1;
+}
+
+.container .our-recom-cover .recom-results-cover .button-cover button {
+  border: none;
+  background: #2FAEC1;
+  color: #fff;
+  float: right;
+  padding: 5px 0;
+  width: 55%;
+}
+
+.container .get-app-cover {
+  background: #13686D;
+  float: left;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 30px 0;
+  margin: 40px 0;
+}

@@ -1,0 +1,241 @@
+body{
+    background: red;
+}
+.container {
+    .header-portion{
+        background: url('../assest/background.png');        
+        background-size: cover;
+        float: left;
+        width: 100%;
+        padding-top: 11%;
+        .site-logo-cover {
+            float: left;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 30px;
+            img {
+                width: 22%;
+            }
+        }
+        .site-tile{
+            float: left;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+            font-size: 44px;
+            margin-bottom: 25px;
+        }
+        
+        // search box
+        .search-box-cover{
+            float: left;
+            width: 86%;
+            background: #fff;
+            border-radius: 40px;
+            .input-group{
+                float: left;
+                width: 80%;
+            }
+            .dropdown{
+                float: left;
+                min-width: 20%;
+                min-height: 44px;
+                border-right: 1px solid #ccc;
+                .btn-primary {
+                    color: #000;
+                    background-color: #fff;
+                    border: none;
+                    margin: 11px 0 0 11px;
+                    padding: 0;                   
+                    
+                }
+            }
+            .stylish-input-group .input-group-addon{
+                background: #13686D; 
+                border:none;
+                border-top-right-radius: 40px;
+                border-bottom-right-radius: 40px;
+            }
+            .stylish-input-group .form-control{
+                border-right:0; 
+                box-shadow:0 0 0; 
+                border:none;
+                padding: 10px 0 0 50px;
+            }
+            .stylish-input-group button{
+                border:0;
+                background:transparent;
+            }
+        }
+        .list-para {
+            float: left;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+            color: #fff;
+        }
+        .mobile-image-cover {
+            float: left;
+            width: 100%;
+            text-align: center;            
+            margin-top: 30px;
+            position: relative;
+            min-height: 390px;
+            
+            img{
+                width:20%;
+                left: 40%;
+                position: absolute;
+            }
+        }
+    }
+    // how it works
+    .how-it-work-cover {
+        float: left;
+        width: 100%;
+        margin-top: 150px;
+        .how-it-title {
+            float: left;
+            width: 100%;
+            text-align: center;
+            font-size: 34px;
+            margin-bottom: 40px;
+        }
+        .coln{
+            float: left;
+            width: 50%;
+            min-height: 178px;
+        }
+        .coln:nth-child(even){
+            border-right:1px solid #2FAEC1;
+        }
+        .coln-3.coln{
+            
+            border-left: 1px solid #ccc;
+        }
+        .coln-2, .coln-1{
+            min-height: 300px;
+        }
+        .coln-5.coln, .coln-6.coln {
+            min-height: 225px !important;
+        }
+        .coln-2.coln .numbr {
+            margin-left: -25px;
+            background-color: #fff;
+        }
+        .coln-4.coln .numbr {
+            margin-top: -72px;
+            margin-left: -25px;
+            background: #fff;
+        }
+        .coln-6.coln .numbr {
+            margin-left: -25px;
+            margin-top: 0;
+        }
+        .download-the-app {
+            float: left;
+            width: 100%;
+            border: 1px solid #ccc;
+            padding: 25px 20px;
+            text-align: center;
+            border-left:none;
+            img{
+                width:7%;
+            }
+            .coln-title{
+                font-weight: bold;
+            }            
+        }
+    }
+    .thats-it-cover {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    
+    // our recommedations
+    .our-recom-cover {
+        float: left;
+        width: 100%;
+        text-align: center;
+        background: #FBFBFB;
+        margin-top:50px;
+        h5 {
+            margin-bottom: 50px;
+        }
+        .recom-results-cover {
+            float: left;
+            text-align: left;
+            background: #fff;
+            width: 32%;
+            border: 1px solid #ccc;
+            margin-right: 15px;
+            padding: 20px 15px;
+            .result-img {
+                float: left;
+                margin-right: 20px;
+                width:28%;
+                img {
+                    border-radius: 50px;
+                    margin-top: 30px;
+                }
+            }
+            .result-texts {
+                float: left;
+                width:66%;
+                .address{
+                    margin:0;
+                }
+                .phone-numbr img{
+                    width: 6%;
+                    margin-right: 20px;
+                }
+                .star-review-cover{
+                    float: left;
+                    width: 100%;
+                    img {
+                        width: 9%;
+                        float: left;
+                    }
+                    .revws-count {
+                        float: left;
+                        margin-left: 20px;
+                    }
+                }
+            }
+            .button-cover {
+                float: left;
+                width: 100%;
+                border: 1px solid #2FAEC1;
+                 
+                    p {
+                        float: left;
+                        width: 30%;
+                        margin: 0;
+                        padding: 5px;
+                        color: #2FAEC1;
+                }
+                    button {
+                        border: none;
+                        background: #2FAEC1;
+                        color: #fff;
+                        float: right;
+                        padding: 5px 0;
+                        width: 55%;
+                
+            }
+            }
+        }
+    }
+   //get the app
+   .get-app-cover {
+       background: #13686D;
+       float: left;
+       width:100%;
+       text-align: center;
+       color: #fff;
+       padding: 30px 0;
+       margin: 40px 0;
+   }
+
+}
