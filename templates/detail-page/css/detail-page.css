@@ -1,0 +1,144 @@
+body {
+  background: #fff;
+}
+
+.container .services-offered {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+}
+
+.container .services-offered .beared-outer-cover {
+  float: left;
+  width: 75%;
+}
+
+.container .services-offered .beared-outer-cover .beard-styling-cover {
+  float: left;
+  width: 25%;
+  margin: 10px 0;
+}
+
+.container .services-offered .beared-outer-cover .beard-styling-cover .beard-cover {
+  float: left;
+  width: 100%;
+}
+
+.container .services-offered .beared-outer-cover .beard-styling-cover .beard-cover span {
+  float: left;
+  margin-right: 15px;
+}
+
+.container .services-offered .beared-outer-cover .beard-styling-cover .beard-cover p {
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.container .services-offered .beared-outer-cover .beard-styling-cover .rup-time {
+  float: left;
+  width: 100%;
+}
+
+.container .services-offered .beared-outer-cover .beard-styling-cover .rup-time p {
+  float: left;
+  margin: 0;
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 0 18px;
+  font-weight: bold;
+}
+
+.container .services-offered .beared-outer-cover .beard-styling-cover .rup-time p:nth-child(2) {
+  margin-left: 10px;
+}
+
+.container .about-this-salon-cover {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+}
+
+.container .about-this-salon-cover p {
+  float: left;
+  width: 75%;
+}
+
+.container .reviews-section-cover {
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.container .reviews-section-cover .show-reviews-count {
+  float: left;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.container .reviews-section-cover .show-reviews-count h3 {
+  float: left;
+  margin-top: 0px;
+  margin-right: 15px;
+}
+
+.container .reviews-section-cover .show-reviews-count img {
+  float: left;
+  width: 2%;
+}
+
+.container .reviews-section-cover .reviewer-cover:nth-child(5) {
+  border: none;
+}
+
+.container .reviews-section-cover .reviewer-cover {
+  float: left;
+  width: 100%;
+  padding: 40px 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+.container .reviews-section-cover .reviewer-cover .reviewer-details {
+  float: left;
+  width: 100%;
+}
+
+.container .reviews-section-cover .reviewer-cover .reviewer-details h3 {
+  float: left;
+  margin-top: 0px;
+  margin-right: 15px;
+}
+
+.container .reviews-section-cover .reviewer-cover .reviewer-details p {
+  float: left;
+  margin-top: 4px;
+  color: #777;
+}
+
+.container .reviews-section-cover .reviewer-cover p {
+  float: left;
+  color: #777;
+}
+
+.container .reviews-section-cover .load-more {
+  float: left;
+  width: 100%;
+  text-align: center;
+  color: blue;
+}
+
+.detail-footer-section {
+  float: left;
+  width: 100%;
+  background: black;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.detail-footer-section .container .footer-part {
+  float: left;
+  width: 33%;
+}

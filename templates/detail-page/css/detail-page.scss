@@ -1,0 +1,127 @@
+body{
+    background: #fff;
+}
+.container{
+    .services-offered {
+        float: left;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 30px;
+        .beared-outer-cover{
+            float: left;
+            width:75%;
+        .beard-styling-cover {
+            float: left;
+            width: 25%;
+            margin:10px 0;
+            .beard-cover {
+                float: left;
+                width: 100%;
+                span {
+                    float: left;
+                    margin-right: 15px;
+                }
+                p {
+                    float: left;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+            .rup-time {
+                float: left;
+                width: 100%;
+                p {
+                    float: left;
+                    margin: 0;
+                    color: #ccc;
+                    border: 1px solid #ccc;
+                    padding: 0 18px;
+                    font-weight: bold;
+                }
+                p:nth-child(2){
+                    margin-left:10px;
+                }
+            }
+        }
+    }
+    } //services offered
+    .about-this-salon-cover {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 30px;
+         p {
+            float: left;
+            width: 75%;
+        }
+    }
+    //reviews section cover
+    .reviews-section-cover {
+        float: left;
+        width: 100%;
+        margin-top: 50px;
+        .show-reviews-count {
+            float: left;
+            width: 100%;
+            margin-bottom: 40px;
+            h3{
+                float: left;
+                margin-top:0px;
+                margin-right: 15px;
+            }
+            img {
+                float: left;
+                width: 2%;
+            }
+        }
+        .reviewer-cover:nth-child(5){
+            border:none;
+        }
+        .reviewer-cover {
+            float: left;
+            width: 100%;
+            padding: 40px 0px;
+            border-bottom: 1px solid #ccc;
+            .reviewer-details {
+                float: left;
+                width: 100%;
+                h3{
+                    float: left;
+                    margin-top:0px;
+                    margin-right: 15px;
+                }
+                p{
+                    float: left;
+                    margin-top: 4px;
+                    color:#777;
+                }
+            }
+            p{
+                float: left;
+                color:#777;
+            }
+        }
+        .load-more{
+            float: left;
+            width:100%;
+            text-align: center;
+            color: blue;
+        }        
+    }
+}
+    //footer section
+    .detail-footer-section {
+        float: left;
+        width: 100%;
+        background: black;
+        color:#fff;
+        padding-bottom: 30px;
+        .container{
+            .footer-part {
+                float: left;
+                width: 33%;
+            }
+
+        }
+    }
