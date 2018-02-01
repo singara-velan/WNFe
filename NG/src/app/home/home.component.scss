@@ -24,6 +24,7 @@ header {
       font-size: 58px;
       line-height: 74px;  
       margin-bottom: 25px;
+      font-family: 'AvertaLight';
     } // search box
     .search-box-cover {
       float: left;
@@ -137,7 +138,7 @@ header {
     .download-the-app {
       float: left;
       width: 100%;
-      box-shadow: 0px 0px rgba(143, 143, 143, 0.5);
+      box-shadow: 0px 0px 1px rgba(143, 143, 143, 0.5);
       padding: 25px 20px;
       text-align: center;
       border-left: none;
@@ -180,11 +181,12 @@ header {
   background: #FCFCFC;
   margin-top: 50px;
   margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 30px 15px;
   h2 {
     font-size: 50px;
     line-height: 64px;
+    margin-top: 0px;
+    font-family: 'AvertaLight';
   }
   h5 {
     margin-bottom: 50px;
@@ -201,6 +203,9 @@ header {
   color: #fff;
   padding: 30px 0;
   margin-top: 40px;
+  img {
+    margin: 15px 0px
+  }
   h5 {
     font-size: 20px;
     line-height: 25px;
