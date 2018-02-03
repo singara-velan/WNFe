@@ -5,6 +5,7 @@ article {
   position: relative;
   overflow: hidden;
   display: inline-block;
+  width: 380px;
 }
 
 .location {
@@ -33,7 +34,7 @@ article {
 
 .result-img {
   float: left;
-  margin-right: 20px;
+  margin-right: 25px;
   img {
     border-radius: 50px;
     margin-top: 30px;
@@ -45,18 +46,19 @@ article {
   text-align: left;
   max-width: 300px;
   h4 {
-    font-size: 26px;
+    font-size: 20px;
     color: #3B3B3B;
+    margin: 0;
   }
   .address {
     margin: 0;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 30px;
   }
   .phone-numbr {
-    font-size: 18px;
+    font-size: 15px;
     img {
-      width: 16px;
+      width: 15px;
       margin-right: 5px;
     }
   }
@@ -64,8 +66,9 @@ article {
 
 .star-review-cover {
   img {
-    height: 18px;
+    height: 14px;
     float: left;
+    margin-right: 5px;
   }
   .revws-count {
     float: left;
