@@ -1,0 +1,23 @@
+    //footer section
+    footer {
+      float: left;
+      width: 100%;
+      background: #13686D;
+      color: #fff;
+      padding: 30px 0px;
+      .container {
+        .footer-part {
+          float: left;
+          width: 33%;
+          h3 {
+              font-size:18px;
+              margin-bottom: 20px;
+          }
+          p {
+              font-size: 14px;
+              line-height: 15px;
+              color: #C7C7C7
+          }
+        }
+      }
+    }

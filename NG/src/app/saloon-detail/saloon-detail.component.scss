@@ -1,0 +1,206 @@
+.container{
+    // estimate time cover
+    .estimate-time-cover {
+        float: left;
+        width: 100%;
+        .toni-guy-cover {
+            float: left;
+            width: 70%;
+            .rounded-shape {
+                float: left;
+                width: 75px;
+                background: #000;
+                min-height: 75px;
+                border-radius: 50px;
+                margin-right: 15px;
+            }
+            .toni-text {
+                float: left;
+                h2{
+                    margin: 0px;
+                    float: left;   
+                }
+                h6{
+                    margin:0px;
+                    float: left;
+                    margin-top: 10px;
+                    margin-left: 30px;
+                }
+                p{
+                    margin:0px;
+                    float: left;
+                    width: 100%;
+
+                }
+                .fav-class{
+                    margin:0px;
+                    float: left;
+                    border: 1px solid blue;
+                    width: 100px;
+                    padding: 3px 15px;
+                    margin: 10px;
+
+                }
+            }
+        }
+        .est-wait {
+            float: left;
+            width: 30%;
+            text-align: right;
+            .star-rev {
+                float: right;
+                img{
+                    width:4%;
+                    float: left;
+                }
+                p{
+                    float: left;
+                }
+            }
+            h5{
+                float: right;
+                margin: 0px;
+
+            }
+            h4{
+                float: right;
+                margin: 0px;
+
+            }
+        }
+    }
+    //service offered
+    .services-offered {
+        float: left;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 30px;
+        .beared-outer-cover{
+            float: left;
+            width:75%;
+        .beard-styling-cover {
+            float: left;
+            width: 25%;
+            margin:10px 0;
+            .beard-cover {
+                float: left;
+                width: 100%;
+                span {
+                    float: left;
+                    margin-right: 15px;
+                }
+                p {
+                    float: left;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+            .rup-time {
+                float: left;
+                width: 100%;
+                p {
+                    float: left;
+                    margin: 0;
+                    color: #ccc;
+                    border: 1px solid #ccc;
+                    padding: 0 18px;
+                    font-weight: bold;
+                }
+                p:nth-child(2){
+                    margin-left:10px;
+                }
+            }
+        }
+    }
+    } //services offered
+    .about-this-salon-cover {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 30px;
+         p {
+            float: left;
+            width: 75%;
+        }
+    }
+    //reviews section cover
+    .reviews-section-cover {
+        float: left;
+        width: 100%;
+        margin-top: 50px;
+        .show-reviews-count {
+            float: left;
+            width: 100%;
+            margin-bottom: 40px;
+            h3{
+                float: left;
+                margin-top:0px;
+                margin-right: 15px;
+            }
+            img {
+                float: left;
+                width: 2%;
+            }
+        }
+        .reviewer-cover:nth-child(5){
+            border:none;
+        }
+        .reviewer-cover {
+            float: left;
+            width: 100%;
+            padding: 40px 0px;
+            border-bottom: 1px solid #ccc;
+            .reviewer-details {
+                float: left;
+                width: 100%;
+                h3{
+                    float: left;
+                    margin-top:0px;
+                    margin-right: 15px;
+                }
+                p{
+                    float: left;
+                    margin-top: 4px;
+                    color:#777;
+                }
+            }
+            p{
+                float: left;
+                color:#777;
+            }
+        }
+        .load-more{
+            float: left;
+            width:100%;
+            text-align: center;
+            color: blue;
+        }        
+    }
+    //book a appoitment
+    .btn {
+        cursor: default;
+        background-color: #FFF;
+        border-radius: 4px;
+        text-align: left;
+    }
+    
+    .caret {
+        position: absolute;
+        right: 16px;
+        top: 16px;
+    }
+    
+    .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+        background-color: #FFF;    
+    }
+    
+    .btn-group.open .dropdown-toggle {
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6)
+    }
+    
+    // .btn-group {width: 100%}
+    .dropdown-menu {width: 100%;}
+
+}
+
