@@ -9,6 +9,7 @@ import { SaloonListComponent } from './saloon-list/saloon-list.component';
 import { SaloonDetailComponent } from './saloon-detail/saloon-detail.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { SaloonSearchComponent } from './saloon-search/saloon-search.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { HeaderComponent } from './shared/header/header.component';
     SaloonListComponent,
     SaloonDetailComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    SaloonSearchComponent
   ],
   imports: [
     BrowserModule,
