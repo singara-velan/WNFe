@@ -6,7 +6,7 @@ header {
     background-size: cover;
     float: left;
     width: 100%;
-    padding-top: 11%;
+    padding-top: 4%;
     .site-logo-cover {
       float: left;
       width: 100%;
@@ -28,7 +28,7 @@ header {
     } // search box
     .search-box-cover {
       float: left;
-      width: 86%;
+      width: 100%;
       background: #fff;
       border-radius: 40px;
       .input-group {
@@ -88,6 +88,42 @@ header {
       }
     }
   }
+  //login-cover
+  .login-cover {
+    float: left;
+    width: 100%;
+    text-align: right;
+    text-align: right;
+    margin-bottom: 5%;
+    min-height: 35px;
+    .login-right{
+      margin-right: 20px;
+      color:#fff;
+      font-size:24px;
+      
+      cursor:pointer;
+    }
+    .login-left{
+      margin-right: 20px;
+      color:#fff;
+      font-size:24px;      
+      cursor:pointer;
+      padding:5px;
+      background: #2FAEC1;
+      
+    }
+    .login-inside {
+      float: right;
+      a{
+        color: #fff;
+        font-size: 18px;
+        margin-right: 30px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+  }
+
+}
 }
 
 .container {
@@ -112,26 +148,31 @@ header {
       border-right: 1px solid #2FAEC1;
     }
     .coln-3.coln {
-      border-left: 1px solid #ccc;
+      border-left: none;
     }
     .coln-2,
     .coln-1 {
       min-height: 300px;
     }
-    .coln-5.coln,
     .coln-6.coln {
-      min-height: 225px !important;
+      min-height: 225px;
     }
-    .coln-2.coln .numbr {
+    .coln-5.coln{
+      min-height:1px;
+    }
+    .coln-2.coln .numberCircle {
       margin-left: -25px;
       background-color: #fff;
     }
-    .coln-4.coln .numbr {
+    .coln-3.coln .numberCircle {
+      display:none;
+    }
+    .coln-4.coln .numberCircle {
       margin-top: -72px;
       margin-left: -25px;
       background: #fff;
     }
-    .coln-6.coln .numbr {
+    .coln-6.coln .numberCircle {
       margin-left: -25px;
       margin-top: 0;
     }
@@ -157,6 +198,17 @@ header {
         font-weight: bold;
       }
     }
+    .numberCircle {
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      padding: 8px;
+      background: #fff;
+      border: 2px solid #2FAEC1;
+      color: #000;
+      text-align: center;
+      font-size: 18px;
+    }
   }
   .thats-it-cover {
     float: left;
@@ -170,6 +222,18 @@ header {
     p {
         font-size: 15px;
         line-height: 19px;
+    }
+    .tick-cover{
+      float: left;
+      width:100%;
+      text-align: center;
+      .numberCircle{
+        position: relative;
+        left:48%;
+        .tick-icon{
+          color: #2FAEC1;
+        }
+      }
     }
   } // our recommedations
   //get the app
@@ -192,7 +256,7 @@ header {
     margin-bottom: 50px;
     font-size: 19px;
     line-height: 24px;
-  }
+  }  
 }
 
 .get-app-cover {
@@ -219,3 +283,103 @@ header {
       line-height: 23px;
   }
 }
+
+
+// for mobile
+@media screen and (max-width: 767px){
+  .mobile-image-cover{
+    display: none;
+  }
+  header .header-portion .site-logo-cover img {
+    width: 43%;
+}
+  
+  header .header-portion .site-tile {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    line-height: 53px;
+    margin-bottom: 25px;
+    font-family: 'AvertaLight';
+}
+.container {
+
+  .how-it-work-cover {
+    margin-top:0px;
+  .coln-2.coln ,.coln-3.coln,.coln-6.coln,.coln-4.coln {
+    width: 100%;
+    float: left;
+}
+.coln-1.coln,.coln-5.coln  {
+      display: none;
+    }
+    .coln-3.coln .numberCircle{
+      display: block
+    }  
+    .coln-4.coln, .coln-4.coln .numberCircle{
+      display: none;
+    }
+    .numberCircle {
+      margin-left: 0;
+      background-color: #fff;
+      position: relative;
+      left: 44%;
+  }
+  .coln-6.coln .numberCircle,.coln-2.coln .numberCircle{
+    margin-left:0px;
+  }
+  .coln:nth-child(even){
+    border-right:none;
+  }
+  .coln-1,.coln-2{
+    min-height:170px;
+  }
+  .download-the-app img{
+    width: 10%;
+}
+  }
+  .thats-it-cover .tick-cover .numberCircle {
+    position: relative;
+    left: 44%;
+}
+}
+}
+
+// @media only screen and (max-width: 2500px) and  (min-width: 1400px) {
+//   header .header-portion .mobile-image-cover img {
+//     width: 18%;
+//     left: 40%;
+//     position: absolute;
+//   }
+// }
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  header .header-portion .mobile-image-cover img {
+    width: 28%;
+    left: 34%;
+    position: absolute;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1100px) {
+  header .header-portion .mobile-image-cover img {
+    width: 25%;
+    left: 39%;
+    position: absolute;
+  }
+}
+@media only screen and (min-width: 1101px) and (max-width: 1400px) {
+  header .header-portion .mobile-image-cover img {
+    width: 20%;
+    left: 39%;
+    position: absolute;
+  }
+}
+@media only screen and (min-width: 1401px) and (max-width: 1700px) {
+  header .header-portion .mobile-image-cover img {
+    width: 16%;
+    left: 42%;
+    position: absolute;
+  }
+}
+

@@ -1,10 +1,21 @@
 <header>
   <div class="header-portion">
+    <!-- login area -->
+    <div class="login-cover">
+        <span class="login-right glyphicon glyphicon-align-right" (click)="login_open()" *ngIf="show_button"></span>
+        <div class="login-inside" *ngIf="show_login">
+            <span class="login-left glyphicon glyphicon-align-left" (click)="login_close()"></span>
+          <a href="#">Get the App </a>
+          <a href="#"> Login</a>  
+        </div>
+
+    </div>
+    <!-- site logo -->
     <span class="site-logo-cover">
         <img src="assets/images/logo.png" alt="Page Logo" />
      </span>
     <p class="site-tile">Book Salon & Spa Appointments</p>
-    <div class="col-sm-6 col-sm-offset-3">
+    <div class="col-sm-6 col-sm-offset-3 hide">
       <div class="search-box-cover">
         <!-- dropdown box  -->
         <div class="dropdown">
@@ -39,7 +50,8 @@
 
     </div>
     <div class="coln-2 coln">
-      <img class="numbr" src="assets/images/1.png" alt="Number Flow icon" />
+      <!-- <img class="numbr" src="assets/images/1.png" alt="Number Flow icon" /> -->
+      <div class="numberCircle">1</div>
       <div class="download-the-app">
         <img src="assets/images/download.png" alt="Page Logo" />
         <h5 class="coln-title">Download the app</h5>
@@ -49,7 +61,7 @@
       </div>
     </div>
     <div class="coln-3 coln">
-
+      <div class="mobile numberCircle">2</div>
       <div class="download-the-app">
         <img src="assets/images/scissors.png" alt="Page Logo" />
         <h5 class="coln-title">Choose Spa/Salon</h5>
@@ -59,13 +71,13 @@
       </div>
     </div>
     <div class="coln-4 coln">
-      <img class="numbr" src="assets/images/1.png" alt="Number Flow icon" />
+      <div class="numberCircle">2</div>
     </div>
     <div class="coln-5 coln">
 
     </div>
     <div class="coln-6 coln">
-      <img class="numbr" src="assets/images/1.png" alt="Number Flow icon" />
+      <div class="numberCircle">3</div>
       <div class="download-the-app">
         <img src="assets/images/calendar.png" alt="Page Logo" />
         <h5 class="coln-title">Select your Schedule</h5>
@@ -77,21 +89,25 @@
     </div>
 
     <div class="thats-it-cover">
-      <img class="numbr" src="assets/images/1.png" alt="Number Flow icon" />
+      <!-- <img class="numbr" src="assets/images/1.png" alt="Number Flow icon" /> -->
+      <div class="tick-cover">        
+        <div class="numberCircle"><span class="tick-icon glyphicon glyphicon-ok"></span></div>
+      </div>
       <h4>That's it!</h4>
       <p>Your appointment is now set.All you have to do is just how up on the time.<br>Loreum Ipsum dolor sit amet,consectetur
         adipisicing ehit,</p>
     </div>
 
   </div>
-</div>
+
 <!-- our recommedations cover -->
-<div class="our-recom-cover clearfix">
+<div class="our-recom-cover clearfix hide">
   <h2>Our Recommendations</h2>
   <h5>Based on your location</h5>
   <app-saloon-list></app-saloon-list>
   <app-saloon-list></app-saloon-list>
   <app-saloon-list></app-saloon-list>
+</div>
 </div>
 <!-- get the app on  -->
 <div class="get-app-cover">
