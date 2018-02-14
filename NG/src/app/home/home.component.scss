@@ -26,6 +26,11 @@ header {
       margin-bottom: 25px;
       font-family: 'AvertaLight';
     } // search box
+    .search-box-outer-cover{
+      display: table;
+      margin: 0 auto;
+      width:500px;
+    }
     .search-box-cover {
       float: left;
       width: 100%;
@@ -156,6 +161,7 @@ header {
     }
     .coln-6.coln {
       min-height: 225px;
+      border-left: 1px solid #2FAEC1;
     }
     .coln-5.coln {
       min-height: 1px;
@@ -246,16 +252,22 @@ header {
   margin-top: 50px;
   margin: auto;
   padding: 30px 15px;
+  float: left;
   h2 {
     font-size: 50px;
     line-height: 64px;
     margin-top: 0px;
     font-family: 'AvertaLight';
+    float: left;
+    width:100%;
   }
   h5 {
     margin-bottom: 50px;
     font-size: 19px;
     line-height: 24px;
+    float: left;
+    width:100%;
+    text-align:center;
   }
 }
 
@@ -352,13 +364,68 @@ header {
   }
 }
 
-// @media only screen and (max-width: 2500px) and  (min-width: 1400px) {
-//   header .header-portion .mobile-image-cover img {
-//     width: 18%;
-//     left: 40%;
-//     position: absolute;
-//   }
-// }
+@media only screen and (max-width:450px){
+  .our-recom-cover {
+    h2 {
+      font-size: 30px;
+      line-height: 44px;
+      margin-top: 0px;
+      font-family: 'AvertaLight';
+      float: left;
+      width:100%;
+    }
+  }
+
+}
+@media only screen and (max-width:429px){
+    header .header-portion {
+      .search-box-outer-cover {
+        display: table;
+        margin: 0 auto;
+        width: 296px;
+    }
+    .search-box-cover {
+        .input-group {
+          float: left;
+          width: 69%;
+        }
+        .stylish-input-group .form-control {
+          border-right: 0;
+          -webkit-box-shadow: 0 0 0;
+          box-shadow: 0 0 0;
+          border: none;
+          padding: 10px 0 0 4px;
+        }
+    }  
+    .site-tile {      
+      font-size: 45px;
+      line-height: 43px;
+      
+  }
+}
+}
+@media only screen and (min-width: 430px) and (max-width: 550px) {
+  header .header-portion {
+    .search-box-outer-cover {
+      display: table;
+      margin: 0 auto;
+      width: 415px;
+  }
+  .search-box-cover {
+      .input-group {
+        float: left;
+        width: 78%;
+      }
+      .stylish-input-group .form-control {
+        border-right: 0;
+        -webkit-box-shadow: 0 0 0;
+        box-shadow: 0 0 0;
+        border: none;
+        padding: 10px 0 0 4px;
+      }
+  }
+}
+}
 @media only screen and (min-width: 768px) and (max-width: 900px) {
   header .header-portion .mobile-image-cover img {
     width: 28%;

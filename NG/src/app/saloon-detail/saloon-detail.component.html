@@ -3,29 +3,31 @@
 <app-slider></app-slider>
 </div>
 <br />
-<div class="container hide">
+<div class="container">
   <!-- estimate wait time -->
   <div class="estimate-time-cover">
     <div class="toni-guy-cover">
       <span class="rounded-shape"> <p>Toni&guy</p> </span>
       <div class="toni-text">
         <h2>Toni & Guy</h2>
-        <h6>Recommended</h6>
-        <p>+31 3542 375478 S17, 12th Floor, Lulu Mall,Cochin</p>
-        <p class="fav-class">Favorite </p>
+        <h6><img src="assets/images/recommend.png" alt="recommend badge" />Recommended</h6>
+        <span class="adrs-cover">
+          <p><span class="glyphicon glyphicon-earphone"></span>+31 3542 375478  <span class="glyphicon glyphicon-map-marker"></span>S17, 12th Floor, Lulu Mall,Cochin</p>
+        </span>
+        <p class="fav-class">  <span class="glyphicon glyphicon-heart"></span>Favorite </p>
       </div>
 
     </div>
     <div class="est-wait">
       <span class="star-rev">
+                          <p>75 Reviews</p> 
                             <img src="assets/images/star_small.png" alt="star review" />
                             <img src="assets/images/star_small.png" alt="star review" />
                             <img src="assets/images/star_small.png" alt="star review" />
                             <img src="assets/images/star_small.png" alt="star review" />
-                            <img src="assets/images/star_small.png" alt="star review" />
-                            <p>75 Reviews</p> 
+                            <img src="assets/images/star_small.png" alt="star review" />                            
                     </span>
-      <h5> Estimated wait time <b>    08:12</b> </h5>
+      <h5> Estimated wait time <b style="color:#000;"><i>08:12</i></b> </h5>
       <h4 class="opn-tday"> Open Today 9AM - 9PM</h4>
 
     </div>
@@ -33,51 +35,74 @@
 
   <!-- book appointment -->
   <div class="bool-appt-cover">
-    <div class="btn-group">
-      <span class="form-control btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                Select Business type
-                            </span>
-
-      <ul class="dropdown-menu" role="menu">
-        <li><a href="#">small</a></li>
-        <li><a href="#">medium</a></li>
-        <li><a href="#">large</a></li>
-      </ul>
-    </div>
-    <!-- 2 -->
-    <div class="btn-group">
-      <button type="button" class="form-control btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                    Select Business type <span class="caret"></span>
-                                </button>
-      <ul class="dropdown-menu" role="menu">
-        <li><a href="#">small</a></li>
-        <li><a href="#">medium</a></li>
-        <li><a href="#">large</a></li>
-      </ul>
-    </div>
-    <!-- 3 -->
-    <div class="btn-group">
-      <button type="button" class="form-control btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                        Select Business type <span class="caret"></span>
-                                    </button>
-      <ul class="dropdown-menu" role="menu">
-        <li><a href="#">small</a></li>
-        <li><a href="#">medium</a></li>
-        <li><a href="#">large</a></li>
-      </ul>
-    </div>
-    <!-- 4 -->
-    <div class="btn-group">
-      <button type="button" class="form-control btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                            Select Business type <span class="caret"></span>
-                                        </button>
-      <ul class="dropdown-menu" role="menu">
-        <li><a href="#">small</a></li>
-        <li><a href="#">medium</a></li>
-        <li><a href="#">large</a></li>
-      </ul>
-    </div>
-    <button type="button" class="btn btn-primary">Primary</button>
+<!-- 1 -->
+      <div class="dropdown service-drop">
+        <p>Services</p> 
+        <span class="dropdown-toggle service-toggle" data-toggle="dropdown">
+          Select
+          <span class="glyphicon glyphicon-chevron-down"></span>
+      </span>
+        <ul class="dropdown-menu">
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+        </ul>
+      </div>
+      <!-- 2 -->
+      <div class="dropdown service-drop">
+          <p>Stylist</p> 
+          <span class="dropdown-toggle service-toggle" data-toggle="dropdown">
+              Select
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </span>
+          <ul class="dropdown-menu">
+            <li><a href="#">John Doe</a></li>
+            <li><a href="#">John Doe</a></li>
+            <li><a href="#">John Doe</a></li>
+          </ul>
+        </div>
+        <!-- 3 -->
+      <div class="dropdown service-drop">
+          <p>No of guests</p> 
+          <span class="dropdown-toggle service-toggle" data-toggle="dropdown">
+              Select
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </span>
+          <ul class="dropdown-menu">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+          </ul>
+        </div>
+        <!-- 4 -->
+      <div class="dropdown service-drop">
+          <p>Date</p> 
+          <span class="dropdown-toggle service-toggle" data-toggle="dropdown">
+              Select
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </span>
+          <ul class="dropdown-menu">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+        </div>
+        <!-- 5 -->
+      <div class="dropdown service-drop">
+          <p>Time Slot</p> 
+          <span class="dropdown-toggle service-toggle" data-toggle="dropdown">
+              Select
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </span>
+          <ul class="dropdown-menu">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+        </div>
+  
+ 
+    <button type="button" class="appnt-btn">Book Appointment</button>
 
   </div>
 
@@ -174,6 +199,10 @@
       <p class="plus-more"> +8 more</p>
 
     </div>
+    <!-- map area -->
+    <div class="service-offered-map">
+        <img src="assets/images/map.png" alt="dummy map image" />
+    </div>
   </div>
   <!-- about this salon -->
   <div class="about-this-salon-cover">
@@ -230,7 +259,7 @@
         ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
     </div>
     <!-- load more -->
-    <p class="load-more"> Load More</p>
+    <p class="load-more"> Load More <span class="glyphicon glyphicon-chevron-down"></span></p>
   </div>
 </div>
 <app-footer></app-footer>
