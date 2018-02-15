@@ -135,6 +135,7 @@
                 padding: 0 0 0 0px;
                 cursor: pointer;
                 font-size:15px;
+                min-width: 151px;
                 .glyphicon.glyphicon-chevron-down {
                     padding: 0 0 0 10px;
                 }
@@ -146,9 +147,10 @@
         .appnt-btn {
             background: #7CD7E3;
             float: left;
-            padding: 20px 24px;
+            padding: 20px 0px 20px 0px;
             color: #fff;
             border: none;
+            width: 173px;;
         }
 
     }
