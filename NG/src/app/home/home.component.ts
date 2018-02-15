@@ -7,19 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  show_button = false;
   constructor() { }
 
   ngOnInit() {
   }
-  show_login=false;
-  show_button=true;
-  login_open(){
-    this.show_login=true;
-    this.show_button=false;
-  }
-  login_close(){
-    this.show_login=false;
-    this.show_button=true;
-  }
 
+  menuToggle() {
+    this.show_button = !this.show_button;
+  }
 }

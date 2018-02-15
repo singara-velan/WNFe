@@ -10,13 +10,13 @@
           float: left;
           width: 33%;
           h3 {
-              font-size:18px;
-              margin-bottom: 20px;
+            font-size: 18px;
+            margin-bottom: 20px;
           }
           p {
-              font-size: 14px;
-              line-height: 18px;
-              color: #C7C7C7
+            font-size: 14px;
+            line-height: 18px;
+            color: #C7C7C7
           }
         }
         .copyright-text {
@@ -24,6 +24,19 @@
           width: 100%;
           text-align: center;
           font-size: 15px;
+        }
       }
+      .playlink {
+        max-width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      footer {
+        .container {
+          .footer-part {
+            width: 50%;
+          }
+        }
       }
     }

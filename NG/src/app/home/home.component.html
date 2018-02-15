@@ -2,12 +2,12 @@
   <div class="header-portion">
     <!-- login area -->
     <div class="login-cover">
-        <span class="login-right glyphicon glyphicon-align-right" (click)="login_open()" *ngIf="show_button"></span>
-        <div class="login-inside" *ngIf="show_login">
-            <span class="login-left glyphicon glyphicon-align-left" (click)="login_close()"></span>
-          <a href="#">Get the App </a>
-          <a href="#"> Login</a>  
-        </div>
+      <span class="login-right glyphicon glyphicon-align-right" (click)="menuToggle()" *ngIf="show_button"></span>
+      <div class="login-inside" *ngIf="!show_button">
+        <span class="login-left glyphicon glyphicon-align-left" (click)="menuToggle()"></span>
+        <a href="#">Get the App </a>
+        <a href="https://crm.waitnahi.com/"> Login</a>
+      </div>
 
     </div>
     <!-- site logo -->
@@ -38,7 +38,7 @@
     <!-- listed para -->
     <p class="list-para"> 13,364 listed spas & salons</p>
     <span class="mobile-image-cover"> 
-            <img src="assets/images/mobile.png" alt="Mobile Image" />
+            <a href="#"><img src="assets/images/mobile.png" alt="Mobile Image" /></a>
           </span>
   </div>
 </header>
@@ -90,7 +90,7 @@
 
     <div class="thats-it-cover">
       <!-- <img class="numbr" src="assets/images/1.png" alt="Number Flow icon" /> -->
-      <div class="tick-cover">        
+      <div class="tick-cover">
         <div class="numberCircle"><span class="tick-icon glyphicon glyphicon-ok"></span></div>
       </div>
       <h4>That's it!</h4>
@@ -100,14 +100,14 @@
 
   </div>
 
-<!-- our recommedations cover -->
-<div class="our-recom-cover">
-  <h2>Our Recommendations</h2>
-  <h5>Based on your location</h5>
-  <app-saloon-list></app-saloon-list>
-  <app-saloon-list></app-saloon-list>
-  <app-saloon-list></app-saloon-list>
-</div>
+  <!-- our recommedations cover -->
+  <div class="our-recom-cover hide">
+    <h2>Our Recommendations</h2>
+    <h5>Based on your location</h5>
+    <app-saloon-list></app-saloon-list>
+    <app-saloon-list></app-saloon-list>
+    <app-saloon-list></app-saloon-list>
+  </div>
 </div>
 <!-- get the app on  -->
 <!-- <div class="get-app-cover">
